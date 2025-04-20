@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lyrics Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-music"></div>
+  <div class="container glass">
+    <h1><i class="fa fa-music"></i> Lyrics Finder</h1>
+    <p class="subtitle">Find your favorite song lyrics</p>
+    <input type="text" id="artist" placeholder="🎤 Artist Name" />
+    <input type="text" id="song" placeholder="🎶 Song Title" />
+    <button onclick="getLyrics()">Get Lyrics</button>
+    <div id="lyrics-box">
+      <pre id="lyrics"></pre>
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
